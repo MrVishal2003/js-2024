@@ -75,7 +75,7 @@ console.log(instructor);
 // }
 
 [
-{},
-{},
-{}
+    {},
+    {},
+    {}
 ]
