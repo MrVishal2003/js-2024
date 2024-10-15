@@ -50,7 +50,7 @@ const promiseFour = new Promise(function(resolve, reject){
     console.log(username);
 }).catch(function(error){
     console.log(error);
-}).finally(() => console.log("The promise is either resolved or rejected"))
+}).finally(() => console.log("The promise is either resolved or rejected"));
 
 
 
