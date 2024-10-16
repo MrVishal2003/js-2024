@@ -10,6 +10,7 @@ const user = {
     }
 }
 
+ 
 // console.log(user.username);
 // console.log(user.getUserDetails());
 // console.log(this);
@@ -20,9 +21,14 @@ function User(username, loginCount, isLoggedIn) {
     this.loginCount = loginCount
     this.isLoggedIn = isLoggedIn
 
+    this.greeting = function() {
+        console.log(`Welcome ${this.username}`);
+    }
+
     return this
 }
 
-const userOne = User("vishal", 12, true)
-
-console.log(userOne);
+const userOne = new User("vishal", 12, true)
+const userTwo = new User("nayan", 11, false)
+console.log(userOne.constructor);
+// console.log(userTwo);
