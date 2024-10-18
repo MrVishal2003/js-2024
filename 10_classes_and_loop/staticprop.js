@@ -7,7 +7,7 @@ class User {
         console.log(`Username: ${this.username}`);
     }
 
-    static createId(){
+     static createId(){
         return `123`
     }
 }
