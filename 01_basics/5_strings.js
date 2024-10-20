@@ -3,12 +3,12 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('vishal-vr');
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+console.log(gameName.__proto__);
 
 
 // console.log(gameName.length);
@@ -16,15 +16,15 @@ const gameName = new String('vishal-vr');
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('i'));
 
-// const newString = gameName.substring(8, 4)
-// console.log(newString);
+const newString = gameName.substring(8, 4)
+console.log(newString);
 
-// const anotherString = gameName.slice(-8, 4)
-// console.log(anotherString);
+const anotherString = gameName.slice(-8, 4)
+console.log(anotherString);
 
-// const newStringOne = "     vishal    "
-// console.log(newStringOne)
-// console.log(newStringOne.trim());
+const newStringOne = "     vishal    "
+console.log(newStringOne)
+console.log(newStringOne.trim());
 
 // const url = "https://vishal.com/vishal%12hadiyal"
 
@@ -32,4 +32,4 @@ const gameName = new String('vishal-vr');
 
 // console.log(url.includes('hadiyal'))
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
