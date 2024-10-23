@@ -21,9 +21,9 @@ arrTwo.push('7')
 arrTwo[10] = 11
 // HOLEY_ELEMENTS
 
-console.log(arrTwo);
-console.log(arrTwo.length);
-console.log(arrTwo[9]);
+// console.log(arrTwo);
+// console.log(arrTwo.length);
+// console.log(arrTwo[9]);
 
 // bound check
 // hasOwnProperty(arrTwo, 9)
@@ -32,8 +32,8 @@ console.log(arrTwo[9]);
 
 // holes are very expensive in js
 
-const arrThree = [1,2,3,4,5]
-console.log(arrThree[2]);
+// const arrThree = [1,2,3,4,5]
+// console.log(arrThree[2]);
 
 // SMI > DOUBLE > PACKED             // continious
 // H_SMI > H_DOUBLE >H_PACKED        // holey
@@ -55,3 +55,22 @@ const arrSix = [1,2,3,4,5]
 arrSix.push(NaN)
 
 // for, for-of, forEach
+
+
+
+
+
+
+
+
+
+
+
+
+
+const numbers = [1,2,3,4,5]
+const result = numbers.some(num => num >2) && 
+               numbers.every(num => num < 6);
+console.log(result);
+
+console.log(null/null);
