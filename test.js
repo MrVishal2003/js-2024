@@ -64,13 +64,21 @@ arrSix.push(NaN)
 
 
 
-
-
-
-
 const numbers = [1,2,3,4,5]
 const result = numbers.some(num => num >2) && 
                numbers.every(num => num < 6);
 console.log(result);
 
 console.log(null/null);
+
+console.log([10] == 10);
+
+let arr = [1,2,3]
+for(let i in arr){
+    console.log(i); // This will log: 0, 1, 2
+}
+
+let arr1 = [1,2,3]
+for (let value of arr1) {
+    console.log(value);  // This will log: 1, 2, 3
+}
